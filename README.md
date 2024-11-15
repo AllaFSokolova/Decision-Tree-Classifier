@@ -64,3 +64,13 @@ While the model performs well on both the training and validation sets, the **te
 
 - The **Decision Tree Classifier** performs well in distinguishing between customers who will exit the bank and those who will stay, based on the features provided in the dataset.
 - The low **test AUROC** score is caused by the absence of non-churning customers (those with `Exited = 0`) in the test set, limiting the classifier's ability to demonstrate its discriminative power.
+
+### Conclusion:
+
+This model is a robust solution for predicting customer churn in a banking environment, providing valuable insights into customer retention strategies. The preprocessing steps ensure that the model is trained on clean, consistent data, and the Decision Tree Classifier offers a transparent, interpretable approach to the problem. However, caution should be taken when interpreting the results on the test set, as the imbalance in the target variable impacts the performance evaluation.
+
+
+
+
+
+
